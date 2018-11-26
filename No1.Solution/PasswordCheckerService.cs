@@ -3,13 +3,6 @@ using System.Linq;
 
 using No1.Solution.Repository;
 
-/*
- * Чтобы избавиться от зависимости от конкретного объекта, 
- * мы реализуем интерфейс IRepository, который будет являться контрактом
- * между нашим сервисом и репозиторием.
- * В данном примере мы можем без особого труда поменять SqlRepository на FIleRepository.
- */
-
 namespace No1.Solution
 {
     public class PasswordCheckerService
